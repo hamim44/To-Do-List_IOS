@@ -33,6 +33,7 @@
 		9274D4B12B053D95007F8066 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9274D4B02B053D95007F8066 /* FirebaseFirestore */; };
 		9274D4B32B053D95007F8066 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9274D4B22B053D95007F8066 /* FirebaseFirestoreSwift */; };
 		9274D4B52B053F23007F8066 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9274D4B42B053F23007F8066 /* GoogleService-Info.plist */; };
+		928EE0882B06561B00160571 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928EE0872B06561B00160571 /* TLButton.swift */; };
 		92B83D252B060A5A0016F13D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B83D242B060A5A0016F13D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		9274D49E2B05393F007F8066 /* todolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITests.swift; sourceTree = "<group>"; };
 		9274D4A02B05393F007F8066 /* todolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9274D4B42B053F23007F8066 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		928EE0872B06561B00160571 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		92B83D242B060A5A0016F13D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				925A4E3D2B05F8A500239496 /* NewItemView.swift */,
 				925A4E3F2B05F8E300239496 /* Loginview.swift */,
 				925A4E412B05F90600239496 /* RegisterView.swift */,
+				928EE0872B06561B00160571 /* TLButton.swift */,
 				925A4E532B05FB7600239496 /* ToDoListItemView.swift */,
 				92B83D242B060A5A0016F13D /* HeaderView.swift */,
 			);
@@ -362,6 +365,7 @@
 				925A4E502B05FB1100239496 /* LoginviewViewModel.swift in Sources */,
 				925A4E4E2B05FAEF00239496 /* NewItemViewViewModel.swift in Sources */,
 				925A4E522B05FB2A00239496 /* RegisterViewViewModel.swift in Sources */,
+				928EE0882B06561B00160571 /* TLButton.swift in Sources */,
 				925A4E422B05F90600239496 /* RegisterView.swift in Sources */,
 				925A4E442B05F9A300239496 /* User.swift in Sources */,
 				925A4E3A2B05F83200239496 /* ProfileView.swift in Sources */,
