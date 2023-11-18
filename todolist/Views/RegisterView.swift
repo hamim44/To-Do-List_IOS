@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct RegisterView: View {
+    @StateObject var viewModel = RegisterViewViewModel()
     
     var body: some View {
-        @StateObject var viewModel = RegisterViewViewModel()
 
         VStack{
             HeaderView(title: "Registration", subtitle: "start organizing todos", angle: -15, background: .green)

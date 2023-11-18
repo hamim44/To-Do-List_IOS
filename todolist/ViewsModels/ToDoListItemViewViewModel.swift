@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+//viewModel for sigle to do list view(each now in items list)
+class ToDoListItemViewViewModel: ObservableObject {
+    init() {}
+}

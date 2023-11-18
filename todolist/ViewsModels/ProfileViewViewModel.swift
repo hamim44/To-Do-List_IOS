@@ -8,3 +8,6 @@
 import FirebaseAuth
 import Foundation
 
+class ProfileViewViewModel: ObservableObject {
+    init() {}
+}
