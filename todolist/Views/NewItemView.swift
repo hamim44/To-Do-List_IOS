@@ -24,7 +24,7 @@ struct NewItemView: View {
                 
                 //due date
                 DatePicker("Due Date", selection: $viewModel.dueDate)
-                    .datePickerStyle(CompactDatePickerStyle())
+                    .datePickerStyle(GraphicalDatePickerStyle())
                 
                 //button
                 

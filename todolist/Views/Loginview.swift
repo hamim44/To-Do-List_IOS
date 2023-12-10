@@ -43,6 +43,7 @@ struct Loginview: View {
                 
                 //Create Account
                 VStack{
+                    NavigationLink("Forget Password", destination:ForgetpaswordView())
                     Text("New around hare?")
                    NavigationLink("Create an Account", destination:RegisterView())
                 }

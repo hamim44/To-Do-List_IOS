@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9203B0E32B07859500178D15 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9203B0E22B07859500178D15 /* Extensions.swift */; };
+		923C89422B26500F008891D8 /* ForgetpaswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C89412B26500F008891D8 /* ForgetpaswordView.swift */; };
+		923C89442B2651D6008891D8 /* ForgetpasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C89432B2651D6008891D8 /* ForgetpasswordViewModel.swift */; };
+		924BFD852B0D31E10092E4C8 /* lunchScereen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924BFD842B0D31E10092E4C8 /* lunchScereen.storyboard */; };
 		925A4E3A2B05F83200239496 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4E392B05F83200239496 /* ProfileView.swift */; };
 		925A4E3C2B05F86B00239496 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4E3B2B05F86B00239496 /* ToDoListView.swift */; };
 		925A4E3E2B05F8A500239496 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4E3D2B05F8A500239496 /* NewItemView.swift */; };
@@ -57,6 +60,9 @@
 
 /* Begin PBXFileReference section */
 		9203B0E22B07859500178D15 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		923C89412B26500F008891D8 /* ForgetpaswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpaswordView.swift; sourceTree = "<group>"; };
+		923C89432B2651D6008891D8 /* ForgetpasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpasswordViewModel.swift; sourceTree = "<group>"; };
+		924BFD842B0D31E10092E4C8 /* lunchScereen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = lunchScereen.storyboard; sourceTree = "<group>"; };
 		925A4E392B05F83200239496 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		925A4E3B2B05F86B00239496 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		925A4E3D2B05F8A500239496 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -127,6 +133,7 @@
 				928EE0872B06561B00160571 /* TLButton.swift */,
 				925A4E532B05FB7600239496 /* ToDoListItemView.swift */,
 				92B83D242B060A5A0016F13D /* HeaderView.swift */,
+				923C89412B26500F008891D8 /* ForgetpaswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +148,7 @@
 				925A4E512B05FB2A00239496 /* RegisterViewViewModel.swift */,
 				925A4E4B2B05FA8700239496 /* ToDoListViewViewModel.swift */,
 				925A4E552B05FB8800239496 /* ToDoListItemViewViewModel.swift */,
+				923C89432B2651D6008891D8 /* ForgetpasswordViewModel.swift */,
 			);
 			path = ViewsModels;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				9274D4B42B053F23007F8066 /* GoogleService-Info.plist */,
 				9274D4872B05393E007F8066 /* Assets.xcassets */,
 				9203B0E22B07859500178D15 /* Extensions.swift */,
+				924BFD842B0D31E10092E4C8 /* lunchScereen.storyboard */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -335,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9274D48B2B05393E007F8066 /* Preview Assets.xcassets in Resources */,
+				924BFD852B0D31E10092E4C8 /* lunchScereen.storyboard in Resources */,
 				9274D4882B05393E007F8066 /* Assets.xcassets in Resources */,
 				9274D4B52B053F23007F8066 /* GoogleService-Info.plist in Resources */,
 			);
@@ -363,6 +373,7 @@
 			files = (
 				925A4E402B05F8E300239496 /* Loginview.swift in Sources */,
 				92B83D252B060A5A0016F13D /* HeaderView.swift in Sources */,
+				923C89442B2651D6008891D8 /* ForgetpasswordViewModel.swift in Sources */,
 				9274D4862B05393E007F8066 /* MainView.swift in Sources */,
 				925A4E3C2B05F86B00239496 /* ToDoListView.swift in Sources */,
 				925A4E502B05FB1100239496 /* LoginviewViewModel.swift in Sources */,
@@ -374,6 +385,7 @@
 				925A4E3A2B05F83200239496 /* ProfileView.swift in Sources */,
 				9274D4842B05393E007F8066 /* todolistApp.swift in Sources */,
 				925A4E4C2B05FA8700239496 /* ToDoListViewViewModel.swift in Sources */,
+				923C89422B26500F008891D8 /* ForgetpaswordView.swift in Sources */,
 				925A4E4A2B05FA5E00239496 /* ProfileViewViewModel.swift in Sources */,
 				925A4E3E2B05F8A500239496 /* NewItemView.swift in Sources */,
 				9203B0E32B07859500178D15 /* Extensions.swift in Sources */,
@@ -541,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todolist/Preview Content\"";
@@ -550,6 +563,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = lunchScereen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todolist/Preview Content\"";
@@ -578,6 +593,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = lunchScereen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
