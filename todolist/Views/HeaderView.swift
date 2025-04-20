@@ -28,7 +28,6 @@ struct HeaderView: View {
                 Text(subtitle)
                     .font(.system(size: 30))
                     .foregroundColor(.white)
-                
             }
             .padding(.top,80)
         }

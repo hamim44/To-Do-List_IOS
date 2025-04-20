@@ -19,7 +19,6 @@ class LoginviewViewModel: ObservableObject{
         guard validate() else {
             return
         }
-        
         Auth.auth().signIn(withEmail: email, password: password)
         
     }
@@ -27,7 +26,6 @@ class LoginviewViewModel: ObservableObject{
         errorMessage = ""
         guard !email.trimmingCharacters(in: .whitespaces).isEmpty,
               !password.trimmingCharacters(in: .whitespaces).isEmpty else{
-            
             errorMessage = "Please Fill in all fields"
             return false
         }

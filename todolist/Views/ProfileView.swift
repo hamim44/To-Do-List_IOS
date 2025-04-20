@@ -19,7 +19,6 @@ struct ProfileView: View {
                 else {
                     Text("Loading Profile...")
                 }
-                
             }
             .navigationTitle("Profile")
         }
