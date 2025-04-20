@@ -17,8 +17,8 @@ class ForgetpasswordViewModel: ObservableObject{
     func resetPassword() {
         guard validate() else {
             return
-            
         }
+        
         Auth.auth().sendPasswordReset(withEmail: email) { error in
             if let error = error {
                 print("Error sending password reset email", error.localizedDescription)
@@ -29,15 +29,12 @@ class ForgetpasswordViewModel: ObservableObject{
     }
     
     private func validate() -> Bool {
-        
         guard !email.trimmingCharacters(in: .whitespaces).isEmpty else {
             return false
         }
-        
         guard email.contains("@") && email.contains(".")  else{
             return false
         }
-        
         return true
     }
 }

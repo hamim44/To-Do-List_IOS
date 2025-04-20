@@ -12,12 +12,10 @@ struct MainView: View {
     
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
-           accountView
- 
+            accountView
         } else{
             Loginview()
         }
-        
     }
     
     @ViewBuilder

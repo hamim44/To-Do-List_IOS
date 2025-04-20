@@ -12,19 +12,18 @@ struct ForgetpaswordView: View {
         VStack{
             HeaderView(title: "Forget Password", subtitle: "Reset your password", angle: 15, background: .orange)
             
-                Form{
-                    TextField("Email Address", text: .constant(""))
-                        .textFieldStyle(DefaultTextFieldStyle())
-                        .autocorrectionDisabled()
-                        .autocapitalization(.none)
-                    
-                    TLButton(title: "Reset Password", background: .blue)
-                    {
+            Form{
+                TextField("Email Address", text: .constant(""))
+                    .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
+                    .autocapitalization(.none)
+                
+                TLButton(title: "Reset Password", background: .blue)
+                {
                     print("Reset Password")
-                    }
-                    .padding()
-                    
                 }
+                .padding()
+            }
         }
     }
 }

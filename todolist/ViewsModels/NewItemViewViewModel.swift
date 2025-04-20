@@ -50,7 +50,6 @@ class NewItemViewViewModel: ObservableObject {
         guard dueDate >= Date().addingTimeInterval(-86400) else {
             return false
         }
-        
         return true
     }
 }

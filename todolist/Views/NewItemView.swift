@@ -27,7 +27,6 @@ struct NewItemView: View {
                     .datePickerStyle(GraphicalDatePickerStyle())
                 
                 //button
-                
                 TLButton(
                     title: "Save",
                     background: .blue)
@@ -47,7 +46,6 @@ struct NewItemView: View {
                       message: Text("Please fill in all fields and select due date that is today or newer.")
                 )
             }
-            
         }
     }
 }
@@ -55,6 +53,5 @@ struct NewItemView: View {
 #Preview {
     NewItemView(newItemPresented: Binding(get: { return true
     }, set: { _ in
-        
     }))
 }
