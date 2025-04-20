@@ -13,8 +13,7 @@ struct MainView: View {
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
            accountView
-           
-            
+ 
         } else{
             Loginview()
         }
@@ -32,7 +31,6 @@ struct MainView: View {
                 .tabItem {
                     Label("Profile", systemImage: "person.circle")
                 }
-            
         }
     }
 }

@@ -17,7 +17,6 @@ class MainViewViewModel: ObservableObject {
             DispatchQueue.main.async {
                 self?.currentUserId = user?.uid ?? ""
             }
-            
         }
     }
     
