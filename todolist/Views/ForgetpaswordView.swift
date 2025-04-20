@@ -25,10 +25,6 @@ struct ForgetpaswordView: View {
                     .padding()
                     
                 }
-            
-            
-            
-            
         }
     }
 }
